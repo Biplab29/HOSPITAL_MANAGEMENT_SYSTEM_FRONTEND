@@ -16,6 +16,7 @@ const Register = () => {
   const [gender, setGender] = useState("");
   const [password, setPassword] = useState("");
 
+  
   const navigateTo = useNavigate();
 
   const handleRegistration = async (e) => {
