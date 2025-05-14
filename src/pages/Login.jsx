@@ -19,7 +19,7 @@ const Login = () => {
       await axios
         .post(
           "https://hospital-management-system-2.glitch.me/api/v1/user/login",
-          { email, password, confirmPassword, role: "Patient" },
+          { email, password, role: "Patient" },
           {
             withCredentials: true,
             headers: { "Content-Type": "application/json" },
